@@ -1,0 +1,7 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  flex: 0.6;
+  /* Note 0.4 + 0.6 = 1 
+  for chat and sidebar component */
+}

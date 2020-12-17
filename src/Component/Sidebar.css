@@ -1,0 +1,48 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.4;
+}
+.sidebar__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-right: 1px solid lightgray;
+}
+.sidebar__headerRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 10vw;
+}
+/* Below ".MuiSvgIcon-root"  --> Target Icon Inside div */
+.sidebar__headerRight > .MuiSvgIcon-root {
+  margin-right: 2vw;
+  font-size: 24px !important;
+}
+.sidebar__search {
+  display: flex;
+  align-items: center;
+  background-color: rgb(7, 135, 139);
+  height: 39px;
+  padding: 10px;
+}
+.sidebar__searchContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  height: 35px;
+  border-radius: 20px;
+}
+.sidebar__searchContainer > .MuiSvgIcon-root {
+  color: rgb(15, 9, 100);
+  padding: 10px;
+}
+.sidebar__searchContainer > input {
+  border: none;
+  outline-width: 0;
+  /* outline-width operates when we click the input-Text */
+  margin-left: 10px;
+  width: 60%;
+}

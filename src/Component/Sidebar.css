@@ -1,7 +1,7 @@
 .sidebar {
   display: flex;
   flex-direction: column;
-  flex: 0.4;
+  flex: 0.35;
 }
 .sidebar__header {
   display: flex;
@@ -45,4 +45,9 @@
   /* outline-width operates when we click the input-Text */
   margin-left: 10px;
   width: 60%;
+}
+.sidebar__chats {
+  flex: 1;
+  overflow: scroll;
+  background-color: rgb(187, 18, 202);
 }

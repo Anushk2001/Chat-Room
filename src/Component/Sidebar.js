@@ -39,6 +39,10 @@ function Sidebar() {
                 <SidebarChats/>
                 <SidebarChats/>
                 <SidebarChats/>
+                <SidebarChats/>
+                <SidebarChats/>
+                <SidebarChats/>
+                <SidebarChats/>
             </div>
 
         </div>
